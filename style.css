@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+body {
+  background: linear-gradient(145deg, #0b1120 0%, #111827 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 700px;
+  width: 100%;
+  background: rgba(18, 25, 45, 0.7);
+  backdrop-filter: blur(2px);
+  border-radius: 2rem;
+  padding: 2rem;
+  box-shadow: 0 25px 45px rgba(0,0,0,0.3);
+  border: 1px solid #2d3a5e;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  background: linear-gradient(135deg, #60a5fa, #c084fc);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  color: #9ca3af;
+}
+
+.estimator-card {
+  background: #0f172a;
+  border-radius: 1.5rem;
+  padding: 1.8rem;
+  border: 1px solid #1e293b;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #e2e8f0;
+}
+
+select, input {
+  width: 100%;
+  padding: 0.7rem;
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 0.75rem;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+select:hover, input:hover {
+  border-color: #3b82f6;
+}
+
+input[type="range"] {
+  padding: 0;
+  accent-color: #3b82f6;
+}
+
+span {
+  display: inline-block;
+  margin-left: 1rem;
+  color: #94a3b8;
+}
+
+.result-area {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #1e293b;
+  text-align: center;
+}
+
+.result-area h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #cbd5e1;
+}
+
+.cost {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #34d399;
+  margin: 0.5rem 0;
+}
+
+.breakdown {
+  background: #0a0f1a;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 0.85rem;
+  color: #9ca3af;
+  text-align: left;
+  margin-top: 1rem;
+}
+
+footer {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 0.75rem;
+  color: #4b5563;
+}
